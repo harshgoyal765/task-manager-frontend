@@ -32,7 +32,7 @@ function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-400 via-white to-indigo-400 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-purple-400 via-white to-indigo-400 px-4">
       <form className="bg-white/90 backdrop-blur-lg p-8 rounded-2xl shadow-2xl w-full max-w-md" onSubmit={submit}>
         <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">Login</h2>
 
@@ -57,7 +57,7 @@ function Login() {
           {errors.password && <p className="text-red-500 text-sm">{errors.password}</p>}
         </div>
 
-        <button className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 transition text-white py-2 rounded-lg font-semibold shadow-md">
+        <button className="w-full bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 transition text-white py-2 rounded-lg font-semibold shadow-md">
           Login
         </button>
 

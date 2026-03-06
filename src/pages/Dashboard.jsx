@@ -31,7 +31,7 @@ function Dashboard() {
   if (loading) return <p className="text-center mt-10">Loading...</p>;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-white to-indigo-200 p-8">
+    <div className="min-h-screen bg-linear-to-br from-purple-200 via-white to-indigo-200 p-8">
       {/* Header */}
       <h1 className="text-4xl font-bold text-indigo-600 mb-6">Dashboard</h1>
 

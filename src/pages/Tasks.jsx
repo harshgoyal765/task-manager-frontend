@@ -51,9 +51,9 @@ const toggleStatus = (task) => {
 };
 
   return (
-    <div className="min-h-screen py-12 bg-gradient-to-br from-purple-200 via-white to-indigo-200 flex flex-col items-center">
+    <div className="min-h-screen py-12 bg-linear-to-br from-purple-200 via-white to-indigo-200 flex flex-col items-center">
       <div className="max-w-3xl w-full bg-white shadow-xl rounded-2xl p-8">
-        <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold text-center mb-8 bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
           Task Manager
         </h2>
 
@@ -70,7 +70,7 @@ const toggleStatus = (task) => {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           />
-          <button className="px-6 py-3 rounded-lg text-white font-medium bg-gradient-to-r from-indigo-500 to-purple-500 hover:scale-105 transition">
+          <button className="px-6 py-3 rounded-lg text-white font-medium bg-linear-to-r from-indigo-500 to-purple-500 hover:scale-105 transition">
             {editingTask ? "Update" : "Add"}
           </button>
         </form>
