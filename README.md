@@ -53,30 +53,25 @@ npm run test
 
 ---
 
-## Environment Variables
-
-Create a `.env` file using the example below:
-
-VITE_API_URL=http://localhost:5000
-
----
-
 ## Screenshots
 ### Home Page
 <img width="1896" height="913" alt="Screenshot 2026-03-06 144146" src="https://github.com/user-attachments/assets/d14d5273-8e73-400f-b566-9972cffe43bc" />
 
 ### Register Page
-<img width="1898" height="912" alt="Screenshot 2026-03-06 144025" src="https://github.com/user-attachments/assets/7c130494-7a7b-427c-ad76-7fa52c26d216" />
+<img width="1891" height="909" alt="image" src="https://github.com/user-attachments/assets/b49a904b-0446-49c1-ace0-ace17cef9578" />
+
 
 
 ### Login Page
 <img width="1900" height="916" alt="Screenshot 2026-03-06 143954" src="https://github.com/user-attachments/assets/9dd1aa81-281c-4b52-8ae8-8baa44fba64b" />
 
 ### Dashboard
-<img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/19eb6719-0bed-4ad1-8f91-9554f6d19371" />
+<img width="1899" height="905" alt="Screenshot 2026-03-06 155927" src="https://github.com/user-attachments/assets/75bf9e4b-901f-4318-8135-dbd0b629ed10" />
 
 ### Task Management
-<img width="1893" height="912" alt="Screenshot 2026-03-06 144110" src="https://github.com/user-attachments/assets/b76847c5-6c25-48ac-955e-b43c13f799b1" />
+<img width="1897" height="918" alt="image" src="https://github.com/user-attachments/assets/3866b216-7da8-4bfc-8263-6f49292186b6" />
+
+
 
 
 ---
