@@ -28,6 +28,9 @@ Since backend APIs were not provided, a **mock API layer using LocalStorage** wa
 * Create and Delete Tasks
 * Form Validation
 * Responsive UI
+* Mark Tasks as Completed
+* Admin Role: View & Manage all users' tasks
+  
 
 ---
 
@@ -52,7 +55,27 @@ http://localhost:5173
 npm run test
 
 ---
+Admin Feature
 
+Role-based access control is implemented using the role field in LocalStorage.
+
+Admin Users:
+
+Can see all tasks from every user.
+
+Can edit, delete, or mark any task as completed.
+
+Regular Users:
+
+Can only see their own tasks.
+
+Can manage their tasks individually.
+
+Example usage in the dashboard:
+
+Admin sees a list of all users’ tasks with user email displayed.
+
+Regular users see only their tasks.
 ## Screenshots
 ### Home Page
 <img width="1896" height="913" alt="Screenshot 2026-03-06 144146" src="https://github.com/user-attachments/assets/d14d5273-8e73-400f-b566-9972cffe43bc" />
