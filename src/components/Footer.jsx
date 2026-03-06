@@ -9,7 +9,7 @@ function Footer() {
         {/* Logo + About */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-3">
-            TaskFlow
+            Task Tracker
           </h2>
 
           <p className="text-gray-400 text-sm leading-relaxed">
@@ -80,7 +80,7 @@ function Footer() {
 
       {/* Bottom Line */}
       <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-400">
-        © {new Date().getFullYear()} TaskFlow. All rights reserved.
+        © {new Date().getFullYear()} Task Tracker. All rights reserved.
       </div>
 
     </footer>
