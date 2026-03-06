@@ -63,24 +63,19 @@ VITE_API_URL=http://localhost:5000
 
 ## Screenshots
 ### Home Page
-
-![Home](./src/Screenshots/Home.png)
+![Home](./Screenshots/Home.png)
 
 ### Register Page
-
-![Register](./src/Screenshots/Register.png)
+![Register](./Screenshots/Register.png)
 
 ### Login Page
-
-![Login](./src/Screenshots/Login.png)
+![Login](./Screenshots/Login.png)
 
 ### Dashboard
-
-![Dashboard](./src/Screenshots/Dashboard.png)
+![Dashboard](./Screenshots/Dashboard.png)
 
 ### Task Management
-
-![Tasks](./src/Screenshots/Task.png)
+![Tasks](./Screenshots/Task.png)
 
 ---
 
