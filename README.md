@@ -1,4 +1,4 @@
-# Frontend Task Tracker
+<img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/fb9dc30e-a907-4379-89bd-b4bf501bb5b4" /><img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/fb9dc30e-a907-4379-89bd-b4bf501bb5b4" /><img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/da1b914c-584c-4eaa-b563-8577cb9a77a2" /><img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/da1b914c-584c-4eaa-b563-8577cb9a77a2" /># Frontend Task Tracker
 
 ## Overview
 
@@ -63,7 +63,9 @@ VITE_API_URL=http://localhost:5000
 
 ## Screenshots
 ### Home Page
-![Home](./Screenshots/Home.png)
+![Home](<img width="1896" height="913" alt="Screenshot 2026-03-06 144146" src="https://github.com/user-attachments/assets/d14d5273-8e73-400f-b566-9972cffe43bc" />
+<img width="1896" height="913" alt="Screenshot 2026-03-06 144146" src="https://github.com/user-attachments/assets/d14d5273-8e73-400f-b566-9972cffe43bc" />
+)
 
 ### Register Page
 ![Register](./Screenshots/Register.png)
@@ -72,10 +74,15 @@ VITE_API_URL=http://localhost:5000
 ![Login](./Screenshots/Login.png)
 
 ### Dashboard
-![Dashboard](./Screenshots/Dashboard.png)
+
+![Dashboard](<img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/19eb6719-0bed-4ad1-8f91-9554f6d19371" />
+<img width="1898" height="912" alt="Screenshot 2026-03-06 143919" src="https://github.com/user-attachments/assets/19eb6719-0bed-4ad1-8f91-9554f6d19371" />
+)
 
 ### Task Management
-![Tasks](./Screenshots/Task.png)
+![Tasks](<img width="1893" height="912" alt="Screenshot 2026-03-06 144110" src="https://github.com/user-attachments/assets/b76847c5-6c25-48ac-955e-b43c13f799b1" />
+<img width="1893" height="912" alt="Screenshot 2026-03-06 144110" src="https://github.com/user-attachments/assets/b76847c5-6c25-48ac-955e-b43c13f799b1" />
+)
 
 ---
 
