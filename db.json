@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Learn React",
+      "description": "Practice components",
+      "status": "pending"
+    }
+  ]
+}
