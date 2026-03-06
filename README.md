@@ -1,16 +1,86 @@
-# React + Vite
+# Frontend Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a **Task Management Frontend Application** built using **React (Vite)**.
+It allows users to **register, login, and manage tasks** through a simple and responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Since backend APIs were not provided, a **mock API layer using LocalStorage** was implemented to simulate authentication and task management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* React (Vite)
+* React Router
+* Context API
+* Tailwind CSS
+* Jest / React Testing Library
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+* User Registration
+* User Login
+* Protected Routes
+* Dashboard for logged-in users
+* Create and Delete Tasks
+* Form Validation
+* Responsive UI
+
+---
+
+## Project Setup
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+The application will run at:
+
+http://localhost:5173
+
+---
+
+## Running Tests
+
+npm run test
+
+---
+
+## Environment Variables
+
+Create a `.env` file using the example below:
+
+VITE_API_URL=http://localhost:5000
+
+---
+
+## Screenshots
+
+### Register Page
+
+![Register](./screenshots/register.png)
+
+### Login Page
+
+![Login](./screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Task Management
+
+![Tasks](./screenshots/tasks.png)
+
+---
+
+## Notes
+
+This project simulates backend APIs using **LocalStorage**, allowing the frontend to function independently without requiring a backend server.

@@ -54,10 +54,19 @@ export const createTask = (task) => {
 };
 
 export const deleteTask = (id) => {
-
   let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-
   tasks = tasks.filter((task) => task.id !== id);
-
   localStorage.setItem("tasks", JSON.stringify(tasks));
+};
+
+export const updateTask = (updatedTask) => {
+  const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+  const newTasks = tasks.map((task) =>
+    task.id === updatedTask.id
+      ? { ...updatedTask, status: "uncompleted" } // Reset status
+      : task
+  );
+  localStorage.setItem("tasks", JSON.stringify(newTasks));
+
+  return { ...updatedTask, status: "uncompleted" };
 };
