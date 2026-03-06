@@ -82,7 +82,7 @@ function Dashboard() {
           <div className="w-full bg-gray-200 rounded-full h-4">
 
             <div
-              className="bg-gradient-to-r from-green-400 to-green-600 h-4 rounded-full transition-all duration-500"
+              className="bg-linear-to-r from-green-400 to-green-600 h-4 rounded-full transition-all duration-500"
               style={{ width: `${progress}%` }}
             />
 

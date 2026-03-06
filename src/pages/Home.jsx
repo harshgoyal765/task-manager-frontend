@@ -4,14 +4,14 @@ import hero from "../assets/hero.png";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-white to-indigo-200">
+    <div className="min-h-screen bg-linear-to-br from-purple-200 via-white to-indigo-200">
       {/* HERO SECTION */}
 
       <section className="max-w-7xl mx-auto px-8 py-24 flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-xl">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
             Manage Your
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
+            <span className="block text-transparent bg-clip-text bg-linear-to-r from-indigo-600 to-purple-600">
               Daily Tasks Smartly
             </span>
           </h1>
@@ -41,24 +41,24 @@ const Home = () => {
         <img
           src={hero}
           alt="hero"
-          className="w-[450px] mt-14 md:mt-0 animate-pulse"
+          className="w-112.5 mt-14 md:mt-0 animate-pulse"
         />
       </section>
 
       {/* STATS */}
 
       <section className="max-w-6xl mx-auto px-8 grid md:grid-cols-3 gap-8 pb-20">
-        <div className="bg-gradient-to-r from-purple-400 to-white p-8 rounded-2xl shadow hover:shadow-xl transition hover:-translate-y-2">
+        <div className="bg-linear-to-r from-purple-400 to-white p-8 rounded-2xl shadow hover:shadow-xl transition hover:-translate-y-2">
           <h2 className="text-4xl font-bold text-indigo-800">10K+</h2>
           <p className="text-gray-600 mt-2">Tasks Managed</p>
         </div>
 
-        <div className="bg-gradient-to-r from-purple-400 to-white p-8 rounded-2xl shadow hover:shadow-xl transition hover:-translate-y-2">
+        <div className="bg-linear-to-r from-purple-400 to-white p-8 rounded-2xl shadow hover:shadow-xl transition hover:-translate-y-2">
           <h2 className="text-4xl font-bold text-purple-900">5K+</h2>
           <p className="text-gray-600 mt-2">Active Users</p>
         </div>
 
-        <div className="bg-gradient-to-r from-purple-400 to-white p-8 rounded-2xl shadow hover:shadow-xl transition hover:-translate-y-2">
+        <div className="bg-linear-to-r from-purple-400 to-white p-8 rounded-2xl shadow hover:shadow-xl transition hover:-translate-y-2">
           <h2 className="text-4xl font-bold text-pink-600">99%</h2>
           <p className="text-gray-600 mt-2">Productivity Boost</p>
         </div>
@@ -106,7 +106,7 @@ const Home = () => {
 
       {/* TASK PREVIEW */}
 
-      <section className="py-24 bg-gradient-to-b from-purple-200 to-purple-50">
+      <section className="py-24 bg-linear-to-b from-purple-200 to-purple-50">
         <h2 className="text-3xl font-bold text-center text-gray-800">
           Task Preview
         </h2>
@@ -148,7 +148,7 @@ const Home = () => {
 
       {/* CTA */}
 
-      <section className="bg-gradient-to-t from-purple-200 to-purple-50 text-center py-24">
+      <section className="bg-linear-to-t from-purple-200 to-purple-50 text-center py-24">
         <h2 className="text-4xl font-bold text-gray-800">
           Start Organizing Your Work Today
         </h2>

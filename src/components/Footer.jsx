@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className=" bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-gray-300">
+    <footer className=" bg-linear-to-r from-slate-900 via-slate-800 to-slate-900 text-gray-300">
 
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-10">
 

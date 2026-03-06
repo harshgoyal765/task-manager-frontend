@@ -67,11 +67,11 @@ function Tasks() {
 
   return (
 
-    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-white to-indigo-200 py-12 display-flex items-center justify-center">
+    <div className="min-h-screen bg-linear-to-br from-purple-200 via-white to-indigo-200 py-12 display-flex items-center justify-center">
 
       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl p-8">
 
-        <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold text-center mb-8 bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
           Task Manager
         </h2>
 
@@ -87,7 +87,7 @@ function Tasks() {
             className="flex-1 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-400"
           />
 
-          <button className="px-6 py-3 rounded-lg text-white font-medium bg-gradient-to-r from-indigo-500 to-purple-500 hover:scale-105 transition cursor-pointer">
+          <button className="px-6 py-3 rounded-lg text-white font-medium bg-linear-to-r from-indigo-500 to-purple-500 hover:scale-105 transition cursor-pointer">
             {editingTask ? "Update" : "Add"}
           </button>
 
